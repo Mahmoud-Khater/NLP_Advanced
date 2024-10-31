@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install -r requirements.txt --quiet
+pip install -r /kaggle/working/NLP_Advanced/scripts/requirements.txt --quiet
 
 python /kaggle/working/NLP_Advanced/scripts/train_ce.py \
         --model_name "FacebookAI/xlm-roberta-large" \
