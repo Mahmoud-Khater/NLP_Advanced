@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install -r requirements.txt --quiet
+pip install -r requirements.txt #--quiet
 
 python train_mlm.py \
         --model_name "microsoft/mdeberta-v3-base" \
