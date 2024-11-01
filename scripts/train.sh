@@ -4,7 +4,7 @@ pip install -r /kaggle/working/NLP_Advanced/scripts/requirements.txt --quiet
 
 python /kaggle/working/NLP_Advanced/scripts/train_mlm.py \
         --model_name "microsoft/mdeberta-v3-base" \
-        --batch_size 128 \
+        --batch_size 16 \
         --num_train_epochs 10
 '''
 python /kaggle/working/NLP_Advanced/scripts/train_ce.py \
