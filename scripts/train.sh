@@ -1,10 +1,10 @@
 #!/bin/bash
 
-pip install -r /kaggle/working/NLP_Advanced/scripts/requirements.txt #--quiet
+pip install -r /kaggle/working/NLP_Advanced/scripts/requirements.txt --quiet
 
 python /kaggle/working/NLP_Advanced/scripts/train_mlm.py \
         --model_name "microsoft/mdeberta-v3-base" \
-        --batch_size 32 \
+        --batch_size 16 \
         --num_train_epochs 10
 : <<'EOF'
 python /kaggle/working/NLP_Advanced/scripts/train_ce.py \
