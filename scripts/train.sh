@@ -6,7 +6,7 @@ python /kaggle/working/NLP_Advanced/scripts/train_mlm.py \
         --model_name "microsoft/mdeberta-v3-base" \
         --batch_size 32 \
         --num_train_epochs 10
-'''
+: <<'EOF'
 python /kaggle/working/NLP_Advanced/scripts/train_ce.py \
         --model_name "microsoft/mdeberta-v3-base" \
         --batch_size 64 \
@@ -124,4 +124,4 @@ python /kaggle/working/NLP_Advanced/scripts/train_ce.py \
         --num_train_epochs 10 \
         --language "eng"
 zip -r submission.zip submission
-'''
+EOF
