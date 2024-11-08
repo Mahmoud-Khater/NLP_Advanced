@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install -r /kaggle/working/kaggle/working/NLP_Advanced/scripts/requirements.txt --quiet
+pip install -r /kaggle/working/NLP_Advanced/scripts/requirements.txt --quiet
 
 python /kaggle/working/NLP_Advanced/scripts/train_mlm.py \
         --model_name "microsoft/mdeberta-v3-base" \
