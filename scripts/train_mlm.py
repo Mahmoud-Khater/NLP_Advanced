@@ -37,7 +37,7 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
     model_name = model_name.split('/')[-1]
-    output_dir = f"/content/NLP_Advanced/saved/mlm/{model_name}"
+    output_dir = f"/content/kaggle/working/NLP_Advanced/saved/mlm/{model_name}"
     max_length = 512
     mlm_prob = 0.15
     
